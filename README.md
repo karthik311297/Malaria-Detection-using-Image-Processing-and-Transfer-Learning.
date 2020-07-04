@@ -5,7 +5,7 @@ The project's main aim was to design a method which is more faster and portable 
 The project consists of three main modules:
              1)The image processing and deep learning model.
              2)The mobile app
-             3) The database API to store the results.
+             3) The database API to record the prediction result from the deep learning model in postgreSQL db and query the records.
 
 The image processing and deep learning model module is implemented using python deep learning library tensorflow and imageo image processing library. The malaria predictor model takes an image input, processes it and passes it on to the neural network and then prediction is made. This model is trained on blood cell images dataset and pickled. The pickled ml model is hosted using flask and
 ngrok-server on google co-lab.
